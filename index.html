@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stargazer's Club</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main-background {
+            background: url('https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Guide%20Background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .new-background {
+            background: linear-gradient(to bottom, #001133, #000000);
+            height: 100%;
+            width: 100%;
+        }
+
+        .new-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin-top: 30px;
+            color: #ffd700;
+            text-shadow: 0 0 20px #ffbf00, 0 0 30px #ffd700, 0 0 40px #ffd700, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+            text-align: center;
+        }
+
+        .dropdown-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            color: #ffd700;
+        }
+
+        .dropdown {
+            margin-top: 10px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: #ffd700;
+            background: black;
+            border: 2px solid #ffd700;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .dropdown:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .centered-display {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .constellation-image {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid black;
+            border-radius: 5px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .link-container {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .link {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: black;
+            background: #ffd700;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .link:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7);
+        }
+
+        .header {
+            margin-top: 30px;
+        }
+
+        .title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px #ffbf00, 0 0 30px #ffd700, 0 0 40px #ffd700, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+
+        .subtitle {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.5rem;
+            color: #ccc;
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #ddd;
+            max-width: 80%;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+            margin: 20px auto;
+        }
+
+        .button-container {
+            margin: 20px 0;
+        }
+
+        .explore-button {
+            background: black;
+            color: #ffd700;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: 1px solid #666;
+            border-radius: 20px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(45deg, #444, #000, #444);
+        }
+
+        .explore-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            transform: translateY(-100%);
+            transition: transform 0.3s ease;
+            pointer-events: none;
+        }
+
+        .explore-button:hover::before {
+            transform: translateY(0);
+        }
+
+        .explore-button:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.7), inset 0px -2px 5px rgba(255, 255, 255, 0.4);
+        }
+
+        footer {
+            position: relative;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body class="main-background">
+    <div class="header">
+        <div class="title">Stargazer's Club</div>
+        <div class="subtitle">Your Gateway to the Stars</div>
+    </div>
+    <div class="content">
+        <p><strong>Welcome to Stargazer's Club: Your Guide to the Night Sky</strong></p>
+        <p>
+            The stars have inspired wonder for generations, and Stargazer's Club makes exploring them simple and rewarding. Learn how to identify constellations, uncover their stories, and navigate the night sky with ease.
+        </p>
+        <p>
+            Discover familiar patterns like Orion, the hunter, or Ursa Major, the great bear. See how the stars form shapes that connect us to science, mythology, and history. Each constellation holds a story, from ancient legends to their use in navigation and exploration.
+        </p>
+        <p>
+            Every clear night offers a chance to experience the beauty of the cosmos. Let Stargazer's Club guide you as you explore the wonders above.
+        </p>
+    </div>
+    <div class="button-container">
+        <button class="explore-button" onclick="showNewPage()">Let's Explore</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Stargazer's Club. All rights reserved.</p>
+    </footer>
+    <script>
+        let constellationData;
+
+        async function fetchConstellationData() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Data.json');
+                constellationData = await response.json();
+            } catch (error) {
+                console.error('Error fetching constellation data:', error);
+            }
+        }
+
+        function showNewPage() {
+            document.body.className = 'new-background';
+            document.body.innerHTML = `
+                <div class="new-title">Explore the Constellations</div>
+                <div class="dropdown-container">
+                    <select id="constellation-select" class="dropdown" onchange="handleDropdownChange()">
+                        <option value="">-- Choose a Constellation --</option>
+                    </select>
+                </div>
+                <div id="display-section" class="display-section"></div>
+            `;
+            populateDropdown();
+        }
+
+        function populateDropdown() {
+            if (!constellationData || !Array.isArray(constellationData)) return;
+            const dropdown = document.getElementById('constellation-select');
+            constellationData.forEach(item => {
+                if (item['Constellation Name']) {
+                    const option = document.createElement('option');
+                    option.value = item['Constellation Name'];
+                    option.dataset.image = item['Constellation Image'];
+                    option.dataset.starChart = item['Constellation Star Chart'];
+                    option.textContent = item['Constellation Name'];
+                    dropdown.appendChild(option);
+                }
+            });
+        }
+
+        function handleDropdownChange() {
+            const dropdown = document.getElementById('constellation-select');
+            const selectedOption = dropdown.options[dropdown.selectedIndex];
+            const selectedName = selectedOption.value;
+            const selectedImage = selectedOption.dataset.image;
+            const selectedStarChart = selectedOption.dataset.starChart;
+
+            if (!selectedName || !selectedImage || !selectedStarChart) return;
+
+            document.body.innerHTML = `
+                <div class="centered-display">
+                    <img src="${selectedImage}" alt="${selectedName}" class="constellation-image">
+                    <div class="link-container">
+                        <a href="${selectedImage}" target="_blank" class="link">Display Constellation</a>
+                        <a href="${selectedStarChart}" target="_blank" class="link">Display Star Chart</a>
+                    </div>
+                    <div class="button-container">
+                        <button class="explore-button" onclick="showNewPage()">Return to Dropdown</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        window.onload = fetchConstellationData;
+    </script>
+</body>
+</html>
