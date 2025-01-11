@@ -9,7 +9,9 @@
     "Meteor Showers": "Andromedid Meteor Shower:\n\nPeak: The Andromedid meteor shower typically peaks around mid-November.\n\nOrigin: This minor meteor shower originates from debris left by a long-period comet.\n\nActivity: The Andromedids are a weak meteor shower with a peak rate of about 5-10 meteors per hour. The meteors appear to radiate from the Andromeda constellation.\n\nObservation Tips: The best time to view the Andromedids is after midnight when the radiant point is higher in the sky. While the shower is weak, it can still produce a few meteors per hour under dark-sky conditions. Avoiding light pollution will help improve visibility.\n\nMeteor Storms: No major meteor storms have been associated with the Andromedid shower.\n\nOther Meteor Showers Associated with Andromeda:\n\nNovember Alpha Monocerotids: Though not strictly an Andromeda shower, this minor meteor shower’s radiant is near the border of Andromeda. It overlaps with the Andromedids, making it potentially visible during the same period.\nMeteor Rate: This is a low to moderate shower, with occasional bright meteors seen during its peak.",
     "Observation Tips": "Binoculars/Telescope: The Andromeda Galaxy (M31) is visible to the naked eye, but a telescope provides a more detailed view, showing the galaxy’s spiral arms and central bulge. Binoculars are also sufficient to observe M31 and its satellite galaxies, M32 and M110.\n\nAvoid Light Pollution: While M31 can be seen without a telescope, light pollution from urban areas can obscure faint objects like the smaller galaxies in the constellation. Observing from a dark-sky site will provide the clearest view of Andromeda and its deep-sky objects.\n\nStar-Hopping: To find the Andromeda Galaxy, start by locating Alpheratz (α Andromedae), the brightest star in the constellation. From there, move your telescope or binoculars towards M31. Andromeda is best observed during the fall months when it reaches its highest point in the sky.",
     "Astronomical Importance": "Proximity to the Milky Way: The Andromeda Galaxy is on a collision course with the Milky Way. In about 4.5 billion years, the two galaxies are expected to merge, forming a new, larger galaxy. Studying Andromeda provides valuable insights into the future dynamics of our galaxy and the process of galactic mergers.\n\nLocal Group: Andromeda is the largest galaxy in the Local Group, a collection of over 50 galaxies, including the Milky Way and the Triangulum Galaxy (M33). Studying Andromeda helps astronomers understand the evolution and formation of galaxies in our local cosmic neighborhood.\n\nStellar Populations: M31 offers a unique opportunity to study stellar populations, star formation, and galaxy evolution. Its central star clusters and surrounding stellar population provide clues about the history and formation of galaxies and help astronomers trace the evolution of the Local Group.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Andromeda.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Andromeda.jpg",
+    "Right Ascention": "0.5667",
+    "Declination": "41"
   },
   {
     "Constellation Name": "Antlia",
@@ -21,7 +23,9 @@
     "Meteor Showers": "Currently, there are no major meteor showers that originate from or are strongly associated with the Antilia constellation. However, meteor showers are typically associated with specific cometary debris fields and are more often linked to the more prominent constellations. Nonetheless, the Southern Hemisphere does experience various meteor showers, including:\n\nThe Eta Aquariids:\n\nPeak: Late April to early May\nRadiant: Aquarius (though visible from the southern sky and sometimes appearing near Antilia)\nActivity: The Eta Aquariids can produce around 30 meteors per hour during its peak, though the exact count can vary.\nObservation Tips: The shower is best observed in the early morning hours when the radiant point is higher in the sky.\n\nThe Delta Aquariids:\n\nPeak: Late July\nRadiant: Aquarius (again, somewhat near Antilia's location in the sky)\nActivity: The Delta Aquariids are typically a moderate shower, producing 20-25 meteors per hour at peak.\nObservation Tips: Similar to the Eta Aquariids, the best time for observation is after midnight when the radiant point is higher in the sky.",
     "Observation Tips": "Telescope Use: While Antilia is a faint constellation, a small telescope can reveal several stars, including Alpha Antilia and the open star cluster NGC 3114.\nLocation: To spot Antilia, you’ll need a clear view of the southern sky. Its location near other faint constellations, such as Hydra and Puppis, may require a bit of patience to identify.\nBest Time to View: Antilia is most easily visible during the Southern Hemisphere summer months, from November to March. It's best observed after midnight when the constellation is highest in the sky.",
     "Astronomical Importance": "While Antilia is not as well-studied as other constellations, its existence is part of Lacaille's historical cataloging of the southern sky. It holds importance primarily for those interested in the history of modern astronomy and the creation of new constellations to represent the southern hemisphere’s sky.\n\nAntilia lies near some interesting regions of space, such as the Milky Way’s galactic plane, and it offers potential targets for astronomical observation, particularly in the study of open star clusters. However, due to its faintness, Antilia is not a major target for professional astronomers compared to other more prominent southern constellations.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Antlia.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Antlia.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Apus",
@@ -33,7 +37,9 @@
     "Meteor Showers": "Currently, there are no major meteor showers that originate from or are strongly associated with the Apus constellation. However, meteor showers are typically associated with specific cometary debris fields and are more often linked to the more prominent constellations.",
     "Observation Tips": "Telescope Use: Since Apus is a faint constellation, a telescope is recommended for viewing its stars and deep-sky objects, especially NGC 6326 and NGC 6188.\n\nLocation: The constellation is best visible in the southern hemisphere, where it is placed high in the sky during the winter months. The stars are faint, so dark skies are essential for optimal viewing.\n\nBest Time to View: Apus is best observed from May to September in the Southern Hemisphere.",
     "Astronomical Importance": "While Apus is not one of the more prominent constellations in the sky, its establishment during the Age of Exploration marks an important moment in the history of astronomy. It represents the fascination of the time with the flora and fauna of the southern hemisphere. It is located near the Milky Way’s galactic plane, which makes it an interesting area for deep-sky observations, even though it lacks particularly famous objects. Apus' faintness and limited number of bright stars mean it is not a primary target for professional astronomers, but it still provides valuable targets for amateur astronomers, particularly in the southern hemisphere.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Apus.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Apus.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Aquarius",
@@ -45,7 +51,9 @@
     "Meteor Showers": "Aquarius does not have any major meteor showers originating directly from the constellation. However, it is associated with a few meteor showers from the surrounding regions.",
     "Observation Tips": "Telescope Use: While Aquarius is a faint constellation, several deep-sky objects such as the Saturn Nebula and Helix Nebula can be observed through moderate to large telescopes.\n\nBest Time to View: Aquarius is best observed in the northern hemisphere in late summer to early autumn, and in the southern hemisphere during the spring months.\n\nLocation: For optimal viewing, it’s best to find a location with minimal light pollution, especially when observing the fainter stars and nebulae.",
     "Astronomical Importance": "Aquarius is a key part of the zodiac, influencing astrological traditions, but in astronomy, it plays a more subtle role. Its position along the celestial equator makes it visible from both hemispheres, and its size and location place it in a region rich with deep-sky objects, including several planetary nebulae. The constellation’s history stretches back to ancient civilizations, and it continues to be of interest for amateur astronomers due to its relatively easy accessibility and its deep-sky targets.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aquarius.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aquarius.jpg",
+    "Right Ascention": "334.41",
+    "Declination": "-10.793"
   },
   {
     "Constellation Name": "Aquila",
@@ -57,7 +65,9 @@
     "Meteor Showers": "Aquila has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers.",
     "Observation Tips": "Telescope Use: To fully appreciate Aquila's deep-sky objects like NGC 6709, NGC 6755, and NGC 6741, a moderate to large telescope is recommended. The stars, especially Altair, are bright enough to be visible with the naked eye.\n\nBest Time to View: Aquila is best observed in the northern hemisphere during the summer months, from July to September. In the southern hemisphere, it can be seen during the winter months.\n\nLocation: Find a spot with minimal light pollution for the best views of both stars and deep-sky objects.",
     "Astronomical Importance": "Aquila is one of the brightest and most visible constellations in the summer sky. As part of the Summer Triangle, it is a key feature of the sky for amateur astronomers. The constellation is home to several important stars and deep-sky objects, including Altair, which is one of the closest stars to Earth and a popular target for scientific study due to its rapid rotation. Aquila's location near the galactic plane also makes it an interesting area for observing deep-sky phenomena.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aquila.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aquila.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Ara",
@@ -69,7 +79,9 @@
     "Meteor Showers": "Ara has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers.",
     "Observation Tips": "Telescope Use: While Ara is relatively faint and requires some effort to observe, its deep-sky objects like NGC 6397 and IC 4651 can be impressive with the right equipment. A small to moderate telescope should be sufficient for most observations, especially for NGC 6397.\n\nBest Time to View: Ara is best observed in the Southern Hemisphere during the winter months, from May to August. In the Northern Hemisphere, it is not visible.\n\nLocation: As with most southern constellations, the best view of Ara is in regions with minimal light pollution. If you're in the Southern Hemisphere, try to observe the constellation from an area with clear, dark skies.",
     "Astronomical Importance": "Though Ara is not a prominent constellation in terms of star brightness or size, it does have some astronomical significance due to its proximity to some interesting deep-sky objects. The most notable of these is NGC 6397, which is one of the closest and brightest globular clusters. In addition, Ara is part of the southern sky and contributes to the celestial map that amateur astronomers use to navigate the night sky. Its position near Scorpius and Centaurus also makes it an excellent region to observe when exploring the Milky Way.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Ara.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Ara.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Aries",
@@ -81,7 +93,9 @@
     "Meteor Showers": "Aries has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers.",
     "Observation Tips": "Telescope Use: While Aries itself doesn't have many prominent deep-sky objects, NGC 772 is a notable spiral galaxy that can be observed with a medium-sized telescope. The stars in Aries, especially Hamal, are bright enough to be easily seen with the naked eye.\n\nBest Time to View: Aries is best observed in the northern hemisphere during the fall and winter months (October to January). It is located at latitudes between +90° and -60°, so it is visible throughout most of the northern hemisphere.\n\nLocation: Aries is best observed from locations with clear skies and minimal light pollution. Try observing it away from city lights to enjoy its deep-sky objects, such as NGC 772.",
     "Astronomical Importance": "Aries is not only important because of its mythological significance but also due to its role as one of the zodiac constellations. The constellation marks the vernal equinox in the astrological calendar, which is crucial for determining the Earth's position relative to the Sun during the changing seasons. While Aries does not contain many prominent deep-sky objects, its association with celestial navigation, the Zodiac, and the astrological calendar give it a special place in both modern astronomy and ancient astronomy.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aries.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Aries.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Auriga",
@@ -93,7 +107,9 @@
     "Meteor Showers": "Auriga has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers.",
     "Observation Tips": "Telescope Use: The stars in Auriga are bright enough to be visible with the naked eye, but for observing deep-sky objects like M36, M37, and M38, a small to medium telescope will provide the best results. These open clusters are great for amateurs to explore.\n\nBest Time to View: Auriga is best observed in the northern hemisphere during the winter months (November to February). It is visible at latitudes between +90° and -40°, making it prominent in much of the northern sky.\n\nLocation: Observing Auriga from a location with minimal light pollution will provide the best results. If you're in the northern hemisphere, try to find a dark, clear night to take in the stars and deep-sky objects.",
     "Astronomical Importance": "Auriga plays an important role in northern sky astronomy. It is home to Capella, one of the brightest stars in the sky, and a number of notable open clusters, such as M36, M37, and M38, which are of interest to both amateur and professional astronomers. Its position near other notable constellations, like Taurus and Perseus, also makes it an easy target for observers and a key feature of the winter sky. Additionally, Auriga's prominent stars have been used for centuries in navigation and are crucial for defining the northern celestial hemisphere.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Auriga.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Auriga.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Boötes",
@@ -105,7 +121,9 @@
     "Meteor Showers": "Boötes has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers.",
     "Observation Tips": "Telescope Use: While Arcturus and other stars in Boötes are easily visible to the naked eye, deep-sky objects like NGC 5248 and NGC 5899 can be observed with larger telescopes. Binoculars are sufficient for general star-watching, but a medium to large telescope will be needed to fully appreciate the galaxies in this region.\n\nBest Time to View: The best time to observe Boötes is during the spring and summer months (April to July) in the northern hemisphere. It is visible at latitudes between +90° and -50°, making it observable from most northern locations.\n\nLocation: For optimal viewing, try to observe Boötes from a location with minimal light pollution. As one of the largest and brightest constellations, it can be seen from many urban and rural locations.",
     "Astronomical Importance": "Boötes is an important navigational constellation due to the brightness of Arcturus, which has been used by astronomers for centuries as a guide star. Its position near the ecliptic plane makes it significant for astrological and astronomical purposes. The constellation is also home to fascinating deep-sky objects, including the Boötes Void, one of the largest known voids in the universe, which provides key insights into the structure of the cosmos.\n\nThough Boötes does not have any major meteor showers directly associated with it, its bright stars and notable deep-sky objects make it a valuable region for astronomical observation.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Bootes.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Bootes.jpg",
+    "Right Ascention": "225",
+    "Declination": "31"
   },
   {
     "Constellation Name": "Caelum",
@@ -117,7 +135,9 @@
     "Meteor Showers": "Caelum has no major meteor showers associated with it. The constellation lies far from the radiant points of well-known meteor showers, making it less significant in terms of meteor activity. However, it is still worth noting that the southern hemisphere experiences various meteor showers throughout the year, even if they do not originate from Caelum specifically.",
     "Observation Tips": "Telescope Use: While Caelum contains a few faint stars, the best way to view the deep-sky objects, such as NGC 1291 and NGC 1553, is with a medium to large telescope. These galaxies can be faint and require higher magnification to resolve their structure.\n\nBest Time to View: Caelum is most visible during the southern summer months (October to March). In the northern hemisphere, it is best seen during the winter months (December to February). Observing from southern latitudes provides the best chance of seeing this faint constellation in its entirety.\n\nLocation: Since Caelum's stars are faint, it is best observed from a dark-sky site with minimal light pollution. The faint stars and deep-sky objects require good conditions for proper viewing.",
     "Astronomical Importance": "Caelum is a small and faint constellation with limited historical and mythological significance compared to others. Its main astronomical importance lies in the deep-sky objects it contains, particularly the lenticular galaxies NGC 1291 and NGC 1553. These galaxies are important for astronomers studying galaxy formation and morphology. Additionally, Caelum's position in the southern sky makes it an important part of the southern hemisphere sky map, even if its stars and objects are less prominent.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Caelum.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Caelum.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Camelopardalis",
@@ -129,7 +149,9 @@
     "Meteor Showers": "Camelopardalis has no major meteor showers associated with it. The constellation lies far from the radiant points of most well-known meteor showers. However, it is important to note that some meteor showers, such as the Quadrantids (which peak in early January), lie near Camelopardalis. As such, while the constellation itself doesn’t have a specific meteor shower tied to it, observers in the northern hemisphere may still enjoy meteor activity in the general region of Camelopardalis.",
     "Observation Tips": "Telescope Use: While Camelopardalis has some notable deep-sky objects like NGC 1500 and NGC 2403, these galaxies are faint and require a medium to large telescope to observe properly. Binoculars may help spot the more prominent stars like Alpha Camelopardalis (Aldhibah), but for detailed views of galaxies, a large telescope is recommended.\n\nBest Time to View: The best time to observe Camelopardalis is during the winter months in the northern hemisphere, from November to February. It is visible at latitudes between +90° and -10°, making it accessible across much of the northern hemisphere, but it is easier to see from darker, rural areas.\n\nLocation: Observing from dark-sky locations will provide the best views of Camelopardalis. The stars are relatively faint, so light pollution can obscure much of the constellation. Look for the asterism that forms the giraffe’s neck, which extends from Ursa Major and Perseus.",
     "Astronomical Importance": "Camelopardalis is a constellation of modern origin, created by Petrus Plancius in the 17th century. Though it has no mythological or significant historical background, it does play a role in modern astronomy, especially due to the deep-sky objects it contains, like NGC 1500 and NGC 2403. The constellation's location in the northern sky places it in a region of space that is rich in galaxies, making it an interesting area for astronomical surveys.\n\nWhile not a prominent feature in the night sky, Camelopardalis contributes to our understanding of the universe by marking a region that contains some fascinating and distant galaxies.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Camelopardalis.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Camelopardalis.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Cancer",
@@ -141,7 +163,9 @@
     "Meteor Showers": "Cancer has no major meteor showers associated with it. However, the constellation lies near the radiant points of several well-known meteor showers, especially the Quadrantids and Lyrids.\n\nQuadrantids (January):\n\nPeak: Early January\nRadiant: Near the border of Boötes, but visible near Cancer.\nActivity: The Quadrantids are an intense meteor shower, with a peak rate of around 40-60 meteors per hour.\n\nSource: The Quadrantids are thought to originate from the asteroid 2003 EH1, which has characteristics of both a comet and an asteroid.\n\nLyrids (April):\n\nPeak: Late April\nRadiant: Lyra, but visible in the region near Cancer.\nActivity: The Lyrids produce about 10-20 meteors per hour at their peak.\n\nSource: The Lyrids originate from the comet Thatcher and are one of the older meteor showers known.\n\nDespite Cancer not having a direct association with major meteor showers, these showers can be observed near the constellation's location in the sky.",
     "Observation Tips": "Telescope Use: The Beehive Cluster (M44) is visible with the naked eye in dark-sky conditions but can be better appreciated with binoculars or a small telescope. The cluster is spread out, making it difficult to resolve individual stars without higher magnification.\n\nBest Time to View: The best time to observe Cancer is during the winter and spring months in the northern hemisphere, especially from January to March. Cancer is visible in the evening during these months, typically after sunset.\n\nLocation: For the best view, observe from dark-sky locations far from city lights. Binoculars will help spot the Beehive Cluster and other stars of the constellation. Larger telescopes will be useful for resolving details in the cluster and for viewing other faint objects in the area.",
     "Astronomical Importance": "Cancer plays a significant role in astrological traditions as one of the zodiac signs associated with emotional and nurturing traits. From an astronomical perspective, it is important mainly because of the Beehive Cluster (M44), one of the most famous and studied open clusters in the night sky. Though Cancer does not host many other deep-sky objects, it marks a key area of the sky for astronomical observation, especially when studying open clusters and their formation.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Cancer.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Cancer.jpg",
+    "Right Ascention": "129.5",
+    "Declination": "19.5"
   },
   {
     "Constellation Name": "Canes Venatici",
@@ -153,7 +177,9 @@
     "Meteor Showers": "Canes Venatici has no major meteor showers associated with it. While the constellation itself does not host any radiant points, nearby constellations like Boötes and Coma Berenices may feature meteor activity during specific showers, such as the Quadrantids.",
     "Observation Tips": "Telescope Use: The constellation’s stars are faint, but its deep-sky objects, such as the Whirlpool Galaxy (M51) and the Sunflower Galaxy (M63), are excellent targets for telescopes. A medium to large telescope is recommended for viewing the details of these galaxies.\n\nBest Time to View: The best time to observe Canes Venatici is during the spring months in the northern hemisphere (March to May). It is most visible when Ursa Major is high in the sky.\n\nLocation: Observing from a dark-sky site will improve visibility. While the deep-sky objects can be observed with telescopes, some like M51 may also be visible through binoculars under optimal conditions.",
     "Astronomical Importance": "Canes Venatici is a small constellation with significant astronomical value due to its location in a region rich with galaxies. The Whirlpool Galaxy (M51), Sunflower Galaxy (M63), and other prominent deep-sky objects in this constellation provide important insights into galactic structure and evolution. Additionally, Cor Caroli (Alpha Canum Venaticorum) is an important magnetic variable star, contributing to the study of stellar magnetic fields. Though faint and less prominent than neighboring constellations, Canes Venatici is a rewarding area of the sky for astronomers.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canes%20Venatici.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canes%20Venatici.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Canis Major",
@@ -165,7 +191,9 @@
     "Meteor Showers": "Canis Major has no major meteor showers associated with it. While the constellation itself is not the radiant point of any significant meteor showers, nearby constellations such as Monoceros and Lepus are associated with minor meteor activity.",
     "Observation Tips": "Telescope Use: The stars of Canis Major, particularly Sirius, are easily visible with the naked eye. For observing M41 and other deep-sky objects, a small to medium telescope is sufficient. Thor's Helmet Nebula requires a larger telescope and good viewing conditions.\n\nBest Time to View: The best time to observe Canis Major is during the winter months in the northern hemisphere (December to March) and during summer in the southern hemisphere.\n\nLocation: Observing from a dark-sky site will provide the best view of the fainter stars and deep-sky objects in Canis Major. Sirius, being exceptionally bright, is visible even in light-polluted areas.",
     "Astronomical Importance": "Canis Major is significant for its bright stars and its rich collection of deep-sky objects. Sirius, the brightest star in the night sky, has been used for navigation, timekeeping, and calendar systems in various cultures. The constellation's location near the Milky Way makes it a treasure trove for observing star clusters and nebulae. Additionally, Thor's Helmet Nebula is a remarkable site for studying Wolf-Rayet stars and stellar evolution.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canis%20Major.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canis%20Major.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Canis Minor",
@@ -177,7 +205,9 @@
     "Meteor Showers": "Canis Minor has no major meteor showers associated with it. While the constellation does not host any radiant points, nearby constellations, such as Monoceros, may feature minor meteor activity.",
     "Observation Tips": "Telescope Use: While the bright stars in Canis Minor, particularly Procyon, can be observed with the naked eye, a telescope is recommended to explore its faint deep-sky objects like NGC 2485.\n\nBest Time to View: The best time to observe Canis Minor is during the winter months (January to March) in the northern hemisphere.\n\nLocation: Procyon is one of the brightest stars in the sky and can be seen even in light-polluted areas. For fainter stars and objects, observing from a dark-sky site is recommended.",
     "Astronomical Importance": "Canis Minor is significant for its bright star Procyon, which plays a key role in the Winter Triangle, a prominent asterism in the winter sky. The proximity of Procyon to Earth and its status as a binary star system make it an object of interest for astronomers studying stellar evolution. While the constellation itself is small, it is a vital part of the larger celestial framework that includes Orion and its hunting dogs.",
-    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canis%20Minor.jpg"
+    "Image": "https://raw.githubusercontent.com/BigBird7827/Constellation-Guide/refs/heads/main/Constellation%20Images/Canis%20Minor.jpg",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Capricornus",
@@ -189,7 +219,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Carina",
@@ -201,7 +233,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Cassiopeia",
@@ -213,7 +247,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Centaurus",
@@ -225,7 +261,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Cepheus",
@@ -237,7 +275,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Cetus",
@@ -249,7 +289,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Chamaeleon",
@@ -261,7 +303,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Circinus",
@@ -273,7 +317,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Columba",
@@ -285,7 +331,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Coma Berenices",
@@ -297,7 +345,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Corona Australis",
@@ -309,7 +359,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Corona Borealis",
@@ -321,7 +373,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Corvus",
@@ -333,7 +387,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Crater",
@@ -345,7 +401,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Crux",
@@ -357,7 +415,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Cygnus",
@@ -369,7 +429,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Delphinus",
@@ -381,7 +443,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Dorado",
@@ -393,7 +457,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Draco",
@@ -405,7 +471,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Equuleus",
@@ -417,7 +485,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Eridanus",
@@ -429,7 +499,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Fornax",
@@ -441,7 +513,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Gemini",
@@ -453,7 +527,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Grus",
@@ -465,7 +541,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Hercules",
@@ -477,7 +555,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Horologium",
@@ -489,7 +569,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Hydra",
@@ -501,7 +583,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Hydrus",
@@ -513,7 +597,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Indus",
@@ -525,7 +611,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Lacerta",
@@ -537,7 +625,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Leo",
@@ -549,7 +639,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Leo Minor",
@@ -561,7 +653,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Lepus",
@@ -573,7 +667,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Libra",
@@ -585,7 +681,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Lupus",
@@ -597,7 +695,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Lynx",
@@ -609,7 +709,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Lyra",
@@ -621,7 +723,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Mensa",
@@ -633,7 +737,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Microscopium",
@@ -645,7 +751,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Monoceros",
@@ -657,7 +765,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Musca",
@@ -669,7 +779,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Norma",
@@ -681,7 +793,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Octans",
@@ -693,7 +807,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Ophiuchus",
@@ -705,7 +821,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Orion",
@@ -717,7 +835,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Pavo",
@@ -729,7 +849,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Pegasus",
@@ -741,7 +863,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Perseus",
@@ -753,7 +877,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Phoenix",
@@ -765,7 +891,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Pictor",
@@ -777,7 +905,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Pisces",
@@ -789,7 +919,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Piscis Austrinus",
@@ -801,7 +933,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Puppis",
@@ -813,7 +947,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Pyxis",
@@ -825,7 +961,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Reticulum",
@@ -837,7 +975,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Sagitta",
@@ -849,7 +989,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Sagittarius",
@@ -861,7 +1003,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Scorpius",
@@ -873,7 +1017,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Sculptor",
@@ -885,7 +1031,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Scutum",
@@ -897,7 +1045,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Serpens",
@@ -909,7 +1059,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Sextans",
@@ -921,7 +1073,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Taurus",
@@ -933,7 +1087,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Telescopium",
@@ -945,7 +1101,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Triangulum",
@@ -957,7 +1115,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Triangulum Australe",
@@ -969,7 +1129,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Tucana",
@@ -981,7 +1143,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Ursa Major",
@@ -993,7 +1157,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Ursa Minor",
@@ -1005,7 +1171,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Vela",
@@ -1017,7 +1185,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Virgo",
@@ -1029,7 +1199,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Volans",
@@ -1041,7 +1213,9 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   },
   {
     "Constellation Name": "Vulpecula",
@@ -1053,6 +1227,8 @@
     "Meteor Showers": "",
     "Observation Tips": "",
     "Astronomical Importance": "",
-    "Image": ""
+    "Image": "",
+    "Right Ascention": "",
+    "Declination": ""
   }
 ]
