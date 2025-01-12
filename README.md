@@ -1,2 +1,4 @@
 # Constellation-Guide
-An amateur's guide to the constellations.
+Stargazer's Club is a comprehensive reference guide to the constellations. It includes, but 
+is not limited to an introduction to the constellation and notable stars within the constellatioon,
+as well as deep-sky objects and meteor showers.
