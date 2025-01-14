@@ -1,4 +1,4 @@
-# Constellation-Guide
+# Stargazers Club
 Welcome to Stargazer's Club. Here you will find comprehensive data about all 88 commonly
 known constellations. This guide will provide information about notable stars, nebula, galaxies,
 associated mythology and meteor showers. We've recently added the ability to generate a star chart
