@@ -1,20 +1,25 @@
 # Stargazers Club
-Welcome to Stargazer's Club. Here you will find comprehensive data about all 88 commonly
-known constellations. This guide will provide information about notable stars, nebula, galaxies,
-associated mythology and meteor showers. We've recently added the ability to generate a star chart
-of the night sky. Just update your location and we'll generate your start chart. Print it and take
-it outside with you and let it be your guide.
 
-You may be wondering what some of the fancy words on our site mean. We're currently working on
-a glossary of terms with links to additional information. Coming Soon!
+Welcome to Stargazer's Club. Our purpose is to teach the basics of astronomy to anyone who has
+an interest. Our website is currently under construction, but some sections are complete. They are:
 
-Plans for the future include a solar system guide. Explore our local star, the sun. You'll
-also have access to comprehensive information about the planets, asteroid belt, our moon and
-moons orbiting other planets. You'll be able to learn about the Oort Cloud and many other
-interesting objects.
+ - Constellation Guide: This guide is all about learning the basics of the 88 constellations
+   in the night sky. Access the Constellation Guide by clicking the "Explore Constellations"
+   button on the main page.
 
-Finally, we'll be adding an exo=planet guide. Learn about all the discoveries that have
-been made about planets outside of our solar system. Some of them are just too weird to
-imagine. You'll have to read about it yourself.
+- Create a Star Chart: This section allows you to create a star chart to assist you with finding
+  celestial objects (constellations, planets, moon, galaxies, etcetera). This requires your
+  geographical location to provide you with an accurate chart. Access the chart generator by
+  clicking the "Create a Star Chart" button on the main page.
+
+Plans for the future include:
+
+- A solar system guide: Explore our local star; the sun, and all
+  of the planets that orbit it. You'll also have access to comprehensive information about the asteroid
+  belt, our moon, moons orbiting other planets, comets, the Kuiper Belt and the Oort Cloud.
+
+- An exo-planet guide: Learn about all of the discoveries that have been made about planets
+  outside of our solar system. Some of them are just too weird to imagine. You'll have to read
+  about it yourself.
 
 Happy Stargazing!
