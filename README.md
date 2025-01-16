@@ -14,12 +14,11 @@ an interest. Our website is currently under construction, but some sections are 
 
 Plans for the future include:
 
-- A solar system guide: Explore our local star; the sun, and all
-  of the planets that orbit it. You'll also have access to comprehensive information about the asteroid
-  belt, our moon, moons orbiting other planets, comets, the Kuiper Belt and the Oort Cloud.
+- A solar system guide: Explore our local star; the sun, and all of the planets that orbit it.
+- You'll also have access to comprehensive information about the asteroid belt, our moon,
+- moons orbiting other planets, comets, the Kuiper Belt and the Oort Cloud.
 
-- An exo-planet guide: Learn about all of the discoveries that have been made about planets
-  outside of our solar system. Some of them are just too weird to imagine. You'll have to read
-  about it yourself.
+Stargazer's Club will eventually expand to cover many more aspects of astronomy. Check back
+often to see what's being planned.
 
 Happy Stargazing!
