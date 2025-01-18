@@ -14,6 +14,9 @@ an interest. Our website is currently under construction, but some sections are 
 
 Plans for the future include:
 
+- A comprehensive glossary of astronomy terms. We are currently working on this and it
+  will be available soon.
+
 - A solar system guide: Explore our local star; the sun, and all of the planets that orbit it.
   You'll also have access to comprehensive information about the asteroid belt, our moon,
   moons orbiting other planets, comets, the Kuiper Belt and the Oort Cloud.
