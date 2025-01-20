@@ -12,7 +12,7 @@ an interest. Our website is currently under construction, but some sections are 
   geographical location to provide you with an accurate chart. Access the chart generator by
   clicking the "Create a Star Chart" button on the main page.
 
-  Play a Star Trek Trivia Quiz - Be warned, this is no ordinary Star Trek Trivia quiz. It's
+- Play a Star Trek Trivia Quiz - Be warned, this is no ordinary Star Trek Trivia quiz. It's
   harder than you think.
 
 Plans for the future include:
