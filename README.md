@@ -32,13 +32,13 @@ Current Features:
   
 Future Plans:
 - International Space Station viewing guide. This section is almost complete and provides information
-  about the ISS's current location and it's next pass over your location. You will need to authorize
-  your browser to provide your current location to provide you with accurate information.
+  about the ISS's current location and it's next pass over your location. 
 
-  **Don't worry. We are not saving your location or any personal data.**
+  **The Star Chart feature and ISS viewing guide require you to allow us to access your geographic location
+    in order to provide accurate information.
+
+  Don't worry. We are not saving your location or any other personal data.
   
-
-
 Stargazer's Club will continue to expand its offerings, incorporating a wider range of astronomical
 topics. We invite you to explore our current resources and stay tuned for exciting future developments.
 
