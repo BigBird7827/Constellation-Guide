@@ -9,8 +9,9 @@ Current Features:
   recognized constellations. Access this resource via the "Explore Constellations" button on the main page.
   
 - Star Chart Generator: Create personalized star charts tailored to your specific location to assist in
-  identifying celestial objects, including constellations, planets, the moon, galaxies, and more.
-  Utilize the "Create a Star Chart" button to access this tool.
+  identifying celestial objects, including constellations, planets, the moon, galaxies, and more. This
+  feature also allows you to print your star chart so that it can be used outdoors. Utilize the "Create a
+   Star Chart" button to access this tool.
   
 - Glossary of Terms: This section provides definitions and explanations of fundamental astronomical terms,
   along with links to related concepts.
