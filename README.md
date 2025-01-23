@@ -20,8 +20,8 @@ Current Features:
   not entered at this time.**
   
 - Solar System Simulation: Currently, this section offers in-depth information about the Sun and the
-  planets within our solar system. Future enhancements will include a comprehensive overview of the solar
-  system, encompassing the Sun, planets, asteroid belt, Kuiper Belt, Oort Cloud, and periodic comets.
+  planets within our solar system. Future enhancements will include a comprehensive animation of the solar
+  system encompassing the Sun, planets, asteroid belt, Kuiper Belt, Oort Cloud, and periodic comets.
   Access this feature via the "Solar System Simulation" button.
 
   **Note: This section is under construction. A full solar system simulation is currently being built and
@@ -31,6 +31,7 @@ Current Features:
   simulate an officer promotion exam. Access this feature via the "Star Trek Quiz" button.
   
 Future Plans:
+
 - International Space Station viewing guide. This section is almost complete and provides information
   about the ISS's current location and it's next pass over your location. 
 
