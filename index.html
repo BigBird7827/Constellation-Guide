@@ -739,6 +739,7 @@ function handleSearch() {
 function displayDefinition(termData) {
     const output = document.getElementById('glossary-output');
     if (termData) {
+        const hyperlink = termData.Hyperlink || '';
         const relatedTerms = Object.keys(termData)
             .filter(key => key.startsWith('Related Term') && termData[key])
             .map(key => {
@@ -750,12 +751,14 @@ function displayDefinition(termData) {
             .join('');
         output.innerHTML = `
             <div class="glossary-term">${termData.Term}</div>
+            ${hyperlink ? `<div><a href="${hyperlink}" target="_blank" style="color: #ffd700;">Visit HR Diagram Reference</a></div>` : ''}
             <div>${termData.Definition}</div>
             ${relatedTerms ? `<br><div class="related-terms"><strong>Related Terms:</strong><br>${relatedTerms}</div>` : ''}`;
     } else {
         output.innerHTML = '<div>No matching term found.</div>';
     }
 }
+
 
 function showRelatedTerm(termName) {
     const relatedTermData = glossaryData.find(term => term.Term === termName);
