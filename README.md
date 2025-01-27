@@ -14,21 +14,22 @@ Current Features:
    Star Chart" button to access this tool.
   
 - Glossary of Terms: This section provides definitions and explanations of fundamental astronomical terms,
-  along with links to related concepts. Access this feature via the "Glossary of Terms" button.
+  along with links to related concepts and images for selected terms. Access this feature via the
+  "Glossary of Terms" button.
 
-   **Note: This section is under construction. Entries from A to E are complete. Entries from F to Z are
-  not entered at this time.**
+   **Note: This section is under construction. All glossary term entries are complete, however, the
+   images are currently being added. This will be completed very soon.**
   
 - Solar System Simulation: Currently, this section offers in-depth information about the Sun and the
   planets within our solar system. Future enhancements will include a comprehensive animation of the solar
   system encompassing the Sun, planets, asteroid belt, Kuiper Belt, Oort Cloud, and periodic comets.
   Access this feature via the "Solar System Simulation" button.
 
-  **Note: This section is under construction. A full solar system simulation is currently being built and
-  will soon be available.**
+  **Note: This section is under construction. A full solar system simulation will eventually be built,
+  but it has not been given a high priority.
   
-- Star Trek Trivia Quiz: Test your knowledge with our challenging Star Trek Trivia quiz, designed to
-  simulate an officer promotion exam. Access this feature via the "Star Trek Quiz" button.
+- Star Trek Trivia Quiz: Test your knowledge of Star Trek with our challenging Star Trek Trivia quiz,
+  designed to simulate an officer promotion exam. Access this feature via the "Star Trek Quiz" button.
   
 Future Plans:
 
