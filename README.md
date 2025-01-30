@@ -13,9 +13,9 @@ Current Features:
   feature also allows you to print your star chart so that it can be used outdoors. Utilize the "Create a
    Star Chart" button to access this tool.
   
-- Glossary of Terms: This section provides definitions and explanations of fundamental astronomical terms,
-  along with links to related concepts and images for selected terms. Access this feature via the
-  "Glossary of Terms" button.
+- Glossary of Terms: This section provides definitions and explanations of fundamental astronomical terms.
+  In most cases, images, short videos, diagrams and charts are provided. Most terms will also link to
+  other related terms. Access this feature via the "Glossary of Terms" button.
 
    **Note: This section is under construction. All glossary term entries are complete, however, the
    images are currently being added. This will be completed very soon.**
