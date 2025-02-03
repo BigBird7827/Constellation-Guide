@@ -617,6 +617,7 @@
         const dropdownHTML = `
         
 						
+						
 						<div class="dropdown-container">
 							<select id="constellation-select" class="dropdown-select" onchange="handleDropdownChange()">
 								<option value="">Select a Constellation</option>
@@ -650,40 +651,49 @@
         const detailContent = `
         
 						
+						
 						<h2 class="title">${constellation['Constellation Name']}</h2>
 						<img src="${constellation['Image']}" class="constellation-image" alt="${constellation['Constellation Name']}">
 							<div class="description">
 								<span class="header">Details:</span>
 								<br>${constellation['Details']}
 									
+									
 									<br>
 										<span class="header">Location and Visibility:</span>
 										<br>${constellation['Location and Visibility']}
+											
 											
 											<br>
 												<span class="header">Mythological Background:</span>
 												<br>${constellation['Mythological Background']}
 													
+													
 													<br>
 														<span class="header">Notable Stars:</span>
 														<br>${constellation['Notable Stars']}
+															
 															
 															<br>
 																<span class="header">Deep-Sky Objects:</span>
 																<br>${constellation['Deep-Sky Objects']}
 																	
+																	
 																	<br>
 																		<span class="header">Meteor Showers:</span>
 																		<br>${constellation['Meteor Showers']}
+																			
 																			
 																			<br>
 																				<span class="header">Observation Tips:</span>
 																				<br>${constellation['Observation Tips']}
 																					
+																					
 																					<br>
 																						<span class="header">Astronomical Importance:</span>
 																						<br>${constellation['Astronomical Importance']}
         
+																						
 																						
 																						</div>
     `;
@@ -734,6 +744,7 @@
         starChartContainer.innerHTML = `
         
 																						
+																						
 																						<iframe 
             width="1000" 
             height="800" 
@@ -750,6 +761,7 @@
         const newWindow = window.open('', '_blank');
         newWindow.document.write(`
         
+																						
 																						
 																						<iframe 
             width="1000" 
@@ -798,25 +810,31 @@
         if (termData) {
           const relatedTerms = Object.keys(termData).filter(key => key.startsWith('Related Term') && termData[key]).map(key => `
 																						
+																						
 																						<a href="#" class="related-term" onclick="showRelatedTerm('${termData[key]}')">${termData[key]}</a>
 																						<br>`).join('');
           const imageLink = termData.Image ? `
+																							
 																							
 																							<a href="#" onclick="openModal('${termData.Image}')">View Image</a>` : '';
           output.innerHTML = `
             
 																							
+																							
 																							<div class="glossary-term">${termData.Term}</div>
 																							<div>${termData.Definition}</div>
             ${imageLink ? `
 																							
+																							
 																							<div class="image-link">${imageLink}</div>` : ''}
             ${relatedTerms ? `
+																							
 																							
 																							<br>
 																								<div class="related-terms">
 																									<strong>Related Terms:</strong>
 																									<br>${relatedTerms}
+																									
 																									
 																									</div>` : ''}`;
         } else {
@@ -851,6 +869,7 @@
           displayDefinition(relatedTermData);
         } else {
           document.getElementById('glossary-output').innerHTML = `
+																									
 																									
 																									<div>Definition for "${termName}" not found.</div>`;
         }
