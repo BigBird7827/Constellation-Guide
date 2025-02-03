@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0d0d2b;
+            overflow: hidden;
+        }
+
+        #buttons-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        #bottom-buttons-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: linear-gradient(to bottom, #1a1a1a, #d4af37);
+            border: none;
+            color: white;
+            font-size: 18px;
+            padding: 15px 30px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        button:hover {
+            background: linear-gradient(to bottom, #d4af37, #1a1a1a);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        canvas {
+            display: block;
+            margin: auto;
+        }
+
+        .explore-button {
+            background: linear-gradient(to bottom, #1a1a1a, #d4af37);
+            border: none;
+            color: white;
+            font-size: 16px;
+            padding: 12px 25px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .explore-button:hover {
+            background: linear-gradient(to bottom, #d4af37, #1a1a1a);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .explore-button:focus {
+            outline: none;
+        }
+
+        .explore-button:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: gold;
+            font-size: 48pt;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="buttons-container">
+        <button class="planet-button" id="sun">Sun</button>
+        <button class="planet-button" id="mercury">Mercury</button>
+        <button class="planet-button" id="venus">Venus</button>
+        <button class="planet-button" id="earth">Earth</button>
+        <button class="planet-button" id="mars">Mars</button>
+        <button class="planet-button" id="jupiter">Jupiter</button>
+        <button class="planet-button" id="saturn">Saturn</button>
+        <button class="planet-button" id="uranus">Uranus</button>
+        <button class="planet-button" id="neptune">Neptune</button>
+    </div>
+
+    <div id="bottom-buttons-container">
+        <button id="rotate-plus">Rotate +</button>
+        <button id="rotate-minus">Rotate -</button>
+        <button id="size-plus">Size +</button>
+        <button id="size-minus">Size -</button>
+        <button id="explore-button" style="display:none;" class="explore-button"></button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script>
+        var scene, camera, renderer, light;
+        var planets = {};
+        var selectedPlanetName = null;
+
+        var rotationSpeed = 0.01;
+        var scaleFactor = 1.0;
+
+        var textures = {
+            mercury: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Mercury%20Texture%20Map.jpg',
+            venus: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Venus%20Texture%20Map.jpg',
+            earth: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Earth%20Texture%20Map.jpg',
+            mars: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Mars%20Texture%20Map.jpg',
+            jupiter: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Jupiter%20Texture%20Map.jpg',
+            saturn: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Saturn%20Texture%20Map.jpg',
+            uranus: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Uranus%20Texture%20Map.jpg',
+            neptune: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Neptune%20Texture%20Map.jpg',
+            sun: 'https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Sun%20Texture%20Map.jpg'
+        };
+
+        function init() {
+            scene = new THREE.Scene();
+            camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+            renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            document.body.appendChild(renderer.domElement);
+
+            light = new THREE.PointLight(0xFFFFFF, 1, 1000);
+            light.position.set(0, 0, 0);
+            scene.add(light);
+
+            camera.position.z = 500;
+
+            animate();
+        }
+
+        function createPlanet(name, textureUrl) {
+            var geometry = new THREE.SphereGeometry(125, 32, 32);
+            var texture = new THREE.TextureLoader().load(textureUrl);
+            var material = new THREE.MeshBasicMaterial({ map: texture });
+            var planet = new THREE.Mesh(geometry, material);
+
+            planet.scale.set(scaleFactor, scaleFactor, scaleFactor);
+            planet.position.set(0, 0, 0);
+            planets[name] = planet;
+            selectedPlanetName = name;
+        }
+
+        function animate() {
+            requestAnimationFrame(animate);
+
+            if (selectedPlanetName) {
+                planets[selectedPlanetName].rotation.y += rotationSpeed;
+            }
+
+            renderer.render(scene, camera);
+        }
+
+        function clearScene() {
+            Object.keys(planets).forEach(function (planetName) {
+                scene.remove(planets[planetName]);
+            });
+        }
+
+        function selectPlanet(name, textureUrl) {
+            if (!planets[name]) createPlanet(name, textureUrl);
+            clearScene();
+            scene.add(planets[name]);
+        }
+
+        document.getElementById('sun').addEventListener('click', function() {
+            selectPlanet('sun', textures.sun);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Sun';
+        });
+
+        document.getElementById('mercury').addEventListener('click', function() {
+            selectPlanet('mercury', textures.mercury);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Mercury';
+        });
+
+        document.getElementById('venus').addEventListener('click', function() {
+            selectPlanet('venus', textures.venus);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Venus';
+        });
+
+        document.getElementById('earth').addEventListener('click', function() {
+            selectPlanet('earth', textures.earth);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Earth';
+        });
+
+        document.getElementById('mars').addEventListener('click', function() {
+            selectPlanet('mars', textures.mars);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Mars';
+        });
+
+        document.getElementById('jupiter').addEventListener('click', function() {
+            selectPlanet('jupiter', textures.jupiter);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Jupiter';
+        });
+
+        document.getElementById('saturn').addEventListener('click', function() {
+            selectPlanet('saturn', textures.saturn);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Saturn';
+        });
+
+        document.getElementById('uranus').addEventListener('click', function() {
+            selectPlanet('uranus', textures.uranus);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Uranus';
+        });
+
+        document.getElementById('neptune').addEventListener('click', function() {
+            selectPlanet('neptune', textures.neptune);
+            document.getElementById('explore-button').style.display = 'inline-block';
+            document.getElementById('explore-button').textContent = 'Explore Neptune';
+        });
+
+        document.getElementById('rotate-plus').addEventListener('click', function() {
+            rotationSpeed += 0.01;
+        });
+
+        document.getElementById('rotate-minus').addEventListener('click', function() {
+            rotationSpeed -= 0.01;
+        });
+
+        document.getElementById('size-plus').addEventListener('click', function() {
+            scaleFactor += 0.1;
+            Object.keys(planets).forEach(function (planetName) {
+                planets[planetName].scale.set(scaleFactor, scaleFactor, scaleFactor);
+            });
+        });
+
+        document.getElementById('size-minus').addEventListener('click', function() {
+            scaleFactor -= 0.1;
+            Object.keys(planets).forEach(function (planetName) {
+                planets[planetName].scale.set(scaleFactor, scaleFactor, scaleFactor);
+            });
+        });
+
+        document.getElementById('explore-button').addEventListener('click', function() {
+            if (selectedPlanetName) {
+                fetch('https://raw.githubusercontent.com/BigBird7827/Solar-System/refs/heads/main/Planet%20Fact%20Sheet.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const planetData = data.find(item => item.Planet.toLowerCase() === selectedPlanetName.toLowerCase());
+                        if (planetData) {
+                            var newWindow = window.open('', '_blank');
+                            newWindow.document.title = planetData.Planet + ' Data Sheet';
+                            newWindow.document.body.style.backgroundColor = 'black';
+                            newWindow.document.body.style.color = 'white';
+                            newWindow.document.body.style.fontFamily = 'Arial, sans-serif';
+                            newWindow.document.body.style.padding = '20px';
+
+                            var img = newWindow.document.createElement('img');
+                            img.src = planetData.Image;
+                            img.style.width = '100%';
+                            img.style.maxWidth = '600px';
+                            img.style.display = 'block';
+                            img.style.margin = '0 auto';
+                            newWindow.document.body.appendChild(img);
+
+                            function createSection(title, content) {
+                                var section = newWindow.document.createElement('div');
+                                var heading = newWindow.document.createElement('h2');
+                                heading.textContent = title;
+                                heading.style.color = 'gold';
+                                heading.style.fontSize = '24pt';
+                                heading.style.marginTop = '30px';
+                                section.appendChild(heading);
+
+                                var paragraph = newWindow.document.createElement('p');
+                                paragraph.textContent = content;
+                                paragraph.style.fontSize = '18px';
+                                section.appendChild(paragraph);
+
+                                newWindow.document.body.appendChild(section);
+                            }
+
+                            createSection('Introduction', planetData.Introduction);
+                            createSection('Facts', planetData.Facts);
+                            createSection('Size and Distance', planetData['Size and Distance']);
+                            createSection('Orbit and Rotation', planetData['Orbit and Rotation']);
+                            createSection('Moons and Rings', planetData['Moons and Rings']);
+                            createSection('Structure', planetData.Structure);
+                            createSection('Surface', planetData.Surface);
+                            createSection('Atmosphere', planetData.Atmosphere);
+                        }
+                    });
+            }
+        });
+
+        init();
+    </script>
+</body>
+</html>
