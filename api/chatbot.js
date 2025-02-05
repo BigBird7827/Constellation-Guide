@@ -8,14 +8,14 @@ export default async function handler(req, res) {
         return res.status(400).json({ error: "Missing query parameter" });
     }
 
-    const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // API Key is securely stored
+    const OPENAI_API_KEY = process.env.OPENAI_API_KEY; // ✅ Securely fetched from Vercel
 
     try {
         const response = await fetch("https://api.openai.com/v1/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${OPENAI_API_KEY}`,
+                "Authorization": `Bearer ${OPENAI_API_KEY}`, // ✅ Uses the secure key
             },
             body: JSON.stringify({
                 model: "gpt-4",
@@ -30,4 +30,3 @@ export default async function handler(req, res) {
         return res.status(500).json({ error: "Error fetching response" });
     }
 }
-
